@@ -1,39 +1,93 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
-    invisibles: {}
-    fontSize: 15
-    softWrapAtPreferredLineLength: true
+  "activate-power-mode":
+    autoToggle: false
+    particles:
+      size:
+        max: 5
+      spawnCount: {}
+      totalCount: {}
+    screenShake: {}
+  "atom-beautify":
+    general:
+      _analyticsUserId: "8f322fe1-0932-43f6-a199-e06df1ee4b27"
+  "atom-material-ui":
+    colors:
+      abaseColor: "#7e57c2"
+      accentColor: "#b0e457"
+      predefinedColor: "Purple"
+    fonts: {}
+    tabs: {}
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "atom-typescript": {}
+  "autocomplete-plus": {}
   core:
-    ignoredNames: [
-      ".bundle"
-      ".git"
-      "log"
-      "repositories"
-      "tmp"
-      "vendor"
-    ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
-    ]
-    hideGitIgnoredFiles: true
     disabledPackages: [
-      "background-tips"
-      "exception-reporting"
       "metrics"
+      "terminal-status"
+      "filetype-color"
+      "mathjax-wrapper"
     ]
-    followSymlinks: false
-  "spell-check":
-    grammars: [
-      "text.plain"
-      "source.gfm"
-      "text.git-commit"
+    projectHome: "/Users/williamseandon/Aptana Studio Workspace"
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax-dark"
     ]
+  editor:
+    fontSize: 12
+    invisibles: {}
+    preferredLineLength: 120
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "c485e101-2a7e-f40b-ea6a-f8aff5afaf9c"
+  "file-icons":
+    forceShow: true
+  "filetype-color":
+    enabled: "true"
+  "markdown-preview": {}
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+  minimap: {}
+  "one-dark-ui":
+    layoutMode: "Compact"
+  "one-light-ui":
+    layoutMode: "Compact"
+  "save-session":
+    dataSaveFolder: "/Users/williamseandon/.atom/packages/save-session/projects"
+    fullScreen: false
+    project: "/Users/williamseandon/Data/Aptana Studio Workspace/nerdondon.github.io"
+    windowHeight: 873
+    windowWidth: 1440
+    windowX: 0
+    windowY: 23
+  "symbols-tree-view": {}
+  "terminal-status": {}
+  "tree-view": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
+".coffee.jsx.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".diff.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".source.ts":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4
+".source.tsx":
+  editor:
+    preferredLineLength: 120
+    tabLength: 4

@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite the default settings
+{
+
+    // Controls whether the editor should render indent guides
+    "editor.renderIndentGuides": true,
+    "files.autoSave": "off",
+    "terminal.integrated.shellArgs.linux": ["-l"]
+}

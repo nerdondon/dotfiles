@@ -1,4 +1,29 @@
-syntax on
+set nocompatible
 
-" Wrap gitcommit file types at the appropriate length
-filetype indent plugin on
+syntax on
+set nowrap
+
+" tab settings
+set tabstop=2
+
+" spaces inserted when tab is pressed
+set softtabstop=4
+
+" tabs are spaces
+set expandtab
+
+set autoindent
+set copyindent
+set number
+
+" number of spaces to use for autoindenting
+set shiftwidth=2
+
+" set indenting based on syntax file rules
+filetype plugin indent on
+
+" show command in bottom bar
+set showcmd
+
+" allow copy/pasting to system clipboard in OSX
+set clipboard=unnamed
