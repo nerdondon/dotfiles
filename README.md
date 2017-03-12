@@ -6,7 +6,7 @@ Largely a fork of [Zach Holman's](https://github.com/holman) dotfiles
 With inspiration and additions from the following:
 - https://github.com/paulmillr/dotfiles
 - https://github.com/mathiasbynens/dotfiles
-- https://github.com/jasonszhao/dotfiles - decided to use dotbot from looking at your's :D
+- https://github.com/jasonszhao/dotfiles - decided to use dotbot from looking at yours :D
 - https://dotfiles.github.io/ - awesome resource
 
 ## original thanks from holman
