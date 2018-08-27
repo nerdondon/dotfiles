@@ -1,0 +1,33 @@
+[user]
+	name = nerdondon
+	email = willdon@nerdondon.com
+[color]
+	diff = auto
+    status = auto
+    branch = auto
+	ui = true
+[core]
+	pager = less -FMRiX
+	autocrlf = input
+[pager]
+	diff = diff-so-fancy | less --tabs=1,5 -RFX
+	show = diff-so-fancy | less --tabs=1,5 -RFX
+[push]
+	default = simple
+[alias]
+	cb = checkout -b
+	ci = commit
+	cia = commit --amend --no-edit
+	co = checkout
+	count = !git shortlog -sn
+	dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)"%an" <%ae>%C(reset) %C(magenta)%cr%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	mf = merge --ff-only
+	pre = pull --rebase
+	preorg = pull --rebase origin mainline
+	porg = push -u origin
+	rmc = rm --cached
+	sl = stash list
+	sp = stash pop
+	st = status
+	track = !$ZSH/bin/git-track

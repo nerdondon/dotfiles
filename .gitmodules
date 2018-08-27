@@ -1,0 +1,6 @@
+[submodule "dotbot"]
+	path = dotbot
+	url = https://github.com/anishathalye/dotbot
+[submodule "zsh/omz/custom/themes/spaceship-prompt"]
+	path = zsh/omz/custom/themes/spaceship-prompt
+	url = https://github.com/denysdovhan/spaceship-prompt
