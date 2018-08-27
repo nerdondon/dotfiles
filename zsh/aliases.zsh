@@ -32,9 +32,3 @@ alias grep="grep --color=auto"
 alias -g f2='| head -n 2'
 alias -g f10='| head -n 10'
 alias -g l10='| tail -n 10'
-
-# Dev shortcuts from paulmillr/dotfiles
-alias bis='bower install --save'
-alias nis='npm install --save'
-alias nisd='npm install --save-dev'
-alias npg='npm list -g'
