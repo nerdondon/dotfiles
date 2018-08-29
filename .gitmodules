@@ -4,3 +4,6 @@
 [submodule "zsh/omz/custom/themes/spaceship-prompt"]
 	path = zsh/omz/custom/themes/spaceship-prompt
 	url = https://github.com/denysdovhan/spaceship-prompt
+[submodule "zsh/omz/custom/plugins/zsh-autosuggestions"]
+	path = zsh/omz/custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions

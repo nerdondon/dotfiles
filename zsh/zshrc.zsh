@@ -61,7 +61,7 @@ ZSH_THEME="spaceship"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colored-man-pages common-aliases tmux tmuxinator)
+plugins=(git colored-man-pages common-aliases tmux tmuxinator zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,3 +102,6 @@ eval "$(rbenv init -)"
 
 # add support for ctrl+o to open selected file in VS Code
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+
+# Change color of autosuggest text to play better with the current terminal theme
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=245"
