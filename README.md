@@ -1,5 +1,27 @@
 # mine
 
+## Notes
+Just some notes on my current set up while I figure out how to automate their installation
+
+Fonts I like:
+- Fira Code
+- Inconsolata for Powerline
+- Meslo LG M for Powerline @ 12pts
+- Soure Code Pro for Powerline
+
+Terminal themes I like:
+- Brogrammer
+- Material Dark
+- Smyck
+- Chalk
+- CLRS (white)
+- Brightlights
+- Afterglow
+- Ciapre
+- Cobalt2
+- Darkside
+- Material (white)
+
 ## thanks
 Largely a fork of [Zach Holman's](https://github.com/holman) dotfiles
 
