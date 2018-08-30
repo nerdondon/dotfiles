@@ -16,3 +16,4 @@ brew zsh
 brew zsh-completions
 
 cask fluor
+cask iterm2
