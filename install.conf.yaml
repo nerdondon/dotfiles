@@ -5,11 +5,17 @@
 - clean: ['~']
 
 - link:
-    ~/.gitconfig: gitconfig
-    ~/.tmux.conf: tmux.conf
-    ~/.vimrc: vimrc
-    ~/.zshrc: zshrc.zsh
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore_global: git/gitignore_global
+    ~/.npmrc: node/.npmrc
+    ~/.tmux.conf: tmux/tmux.conf
+    ~/.vimrc: vim/vimrc
+    ~/.zshrc: zsh/zshrc.zsh
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh, Downloading OMZ]
+    - [
+        ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme",
+        'Symlink spaceship prompt',
+      ]
