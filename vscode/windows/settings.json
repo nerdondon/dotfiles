@@ -1,0 +1,70 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "javascript.referencesCodeLens.enabled": true,
+    "typescript.referencesCodeLens.enabled": true,
+    "window.restoreWindows": "all",
+    "window.zoomLevel": 0,
+    "python.disablePromptForFeatures": [
+        "pylint"
+    ],
+    "powershell.integratedConsole.showOnStartup": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.rulers": [
+        100,
+        120
+    ],
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "[markdown]": {
+        "editor.tabSize": 4
+    },
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "gitlens.explorers.avatars": false,
+    "gitlens.blame.avatars": false,
+    "explorer.autoReveal": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true
+    },
+    "prettier.disableLanguages": [
+        "vue",
+        "markdown"
+    ],
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 100,
+    "prettier.trailingComma": "es5",
+    "gitlens.historyExplorer.enabled": true,
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Night Owl",
+    "gitlens.mode.active": "review",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#000C1D",
+        "activityBar.border": "#102a44",
+        "sideBar.background": "#001122",
+        "sideBar.border": "#102a44",
+        "sideBar.foreground": "#8BADC1"
+    }
+}
