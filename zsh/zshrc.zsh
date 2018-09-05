@@ -105,3 +105,6 @@ export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 
 # Change color of autosuggest text to play better with the current terminal theme
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=245"
+
+# Bind ctrl + space to accept autosuggestions
+bindkey '^ ' autosuggest-accept
