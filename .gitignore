@@ -7,6 +7,9 @@ atom/packages
 atom/storage
 atom/themes
 
+# Spaceship prompt installation symlink
+zsh/omz/custom/themes/spaceship.zsh-theme
+
 ### macOS ###
 # General
 .DS_Store
