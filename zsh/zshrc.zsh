@@ -108,3 +108,6 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=245"
 
 # Bind ctrl + space to accept autosuggestions
 bindkey '^ ' autosuggest-accept
+
+# Add vscode to the path
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
