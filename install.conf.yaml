@@ -14,8 +14,9 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - ["git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh", Downloading OMZ]
+    - ['git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh', Downloading OMZ]
     - [
         'ln -s "${HOME}/dotfiles/zsh/omz/custom/themes/spaceship-prompt/spaceship.zsh-theme" "${HOME}/dotfiles/zsh/omz/custom/themes/spaceship.zsh-theme"',
         'Symlink spaceship prompt',
       ]
+    - [$(brew --prefix)/opt/fzf/install, Run fzf install script]
