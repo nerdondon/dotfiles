@@ -1,3 +1,4 @@
+castwide.solargraph
 ChrisRu.vscode-nightsky
 CoenraadS.bracket-pair-colorizer
 donjayamanne.githistory
@@ -10,6 +11,7 @@ ms-vscode.PowerShell
 msjsdiag.debugger-for-chrome
 naumovs.theme-oceanicnext
 PeterJausovec.vscode-docker
+rebornix.ruby
 robertohuertasm.vscode-icons
 sdras.night-owl
 SintrumIT.theme-oceanic-next-italic
