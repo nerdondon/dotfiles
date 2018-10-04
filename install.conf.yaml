@@ -19,4 +19,8 @@
         'ln -s "${HOME}/dotfiles/zsh/omz/custom/themes/spaceship-prompt/spaceship.zsh-theme" "${HOME}/dotfiles/zsh/omz/custom/themes/spaceship.zsh-theme"',
         'Symlink spaceship prompt',
       ]
+    - [
+        'git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm',
+        Install tmux plugin manager,
+      ]
     - [$(brew --prefix)/opt/fzf/install, Run fzf install script]
