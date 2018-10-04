@@ -7,6 +7,7 @@
 - link:
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
+    ~/.hyper.js: hyper/.hyper.js
     ~/.npmrc: node/.npmrc
     ~/.tmux.conf: tmux/tmux.conf
     ~/.vimrc: vim/vimrc
