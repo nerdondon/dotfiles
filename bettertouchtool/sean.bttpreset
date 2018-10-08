@@ -128,7 +128,7 @@
     "BSTCornerRoundness" : 40,
     "BTTDismissIfNothingToShow" : true,
     "BSTPreventTopMissionControl" : true,
-    "BTTNumberOfStarts" : 8991,
+    "BTTNumberOfStarts" : 9016,
     "BTTHTTPServerEncrypted" : false,
     "showKeyboardTab" : true,
     "BTTConvertedDevices" : true,
@@ -145,8 +145,20 @@
     "BTTTouchBarVisible" : false,
     "BTTTouchBarUseMonoSpacedFont" : true
   },
-  "BTTPresetUUID" : "A8279A99-18BF-47F6-AC19-124CB3717B0F",
+  "BTTPresetUUID" : "7F4805C7-0218-41A9-B76C-700EDD9BF724",
   "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.google.Chrome",
+      "BTTAppName" : "Google Chrome",
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Google Chrome",
+      "BTTAppSpecificSettings" : {
+
+      },
+      "BTTTriggers" : [
+
+      ]
+    },
     {
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
@@ -155,15 +167,16 @@
       },
       "BTTTriggers" : [
         {
-          "BTTTriggerType" : 4,
-          "BTTTriggerTypeDescription" : "2 Finger Tap",
-          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
-          "BTTPredefinedActionType" : 1,
-          "BTTPredefinedActionName" : "Middle Click",
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTAdditionalConfiguration" : "8388608",
           "BTTEnabled2" : 1,
-          "BTTUUID" : "41D9DF06-71CD-4133-926A-5C9A441B83C4",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 3,
+          "BTTUUID" : "E8BB06AB-4463-4923-9EE9-E910C5FCCB49",
+          "BTTEnabled" : 0,
+          "BTTShortcutKeyCode" : 111,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 4,
           "BTTIconData" : "",
           "BTTAlternateIconData" : ""
         },
@@ -183,42 +196,42 @@
         },
         {
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 126,
-          "BTTPredefinedActionName" : "Toggle Mouse Speed",
-          "BTTAdditionalConfiguration" : "393216",
+          "BTTPredefinedActionType" : 64,
+          "BTTPredefinedActionName" : "Forward Delete",
+          "BTTAdditionalConfiguration" : "524288",
           "BTTEnabled2" : 1,
-          "BTTUUID" : "B3BEF9C8-BB10-422D-A266-8D4CA5853BC9",
+          "BTTUUID" : "9050D28A-9D69-4687-9D09-9E8928EF6C0D",
           "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 6,
-          "BTTShortcutModifierKeys" : 393216,
-          "BTTOrder" : 1,
+          "BTTShortcutKeyCode" : 51,
+          "BTTShortcutModifierKeys" : 524288,
+          "BTTOrder" : 2,
           "BTTIconData" : "",
           "BTTAlternateIconData" : ""
         },
         {
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 5,
-          "BTTPredefinedActionName" : "Mission Control",
-          "BTTAdditionalConfiguration" : "8388608",
+          "BTTPredefinedActionType" : 64,
+          "BTTPredefinedActionName" : "Forward Delete",
+          "BTTAdditionalConfiguration" : "262144",
           "BTTEnabled2" : 1,
-          "BTTUUID" : "E8BB06AB-4463-4923-9EE9-E910C5FCCB49",
-          "BTTEnabled" : 0,
-          "BTTShortcutKeyCode" : 111,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 4,
+          "BTTUUID" : "BF220830-E93F-4858-94D1-D0CA3E142559",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 51,
+          "BTTShortcutModifierKeys" : 262144,
+          "BTTOrder" : 0,
           "BTTIconData" : "",
           "BTTAlternateIconData" : ""
         },
         {
-          "BTTTriggerType" : 112,
-          "BTTTriggerTypeDescription" : "3 Finger Click",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : 1,
-          "BTTPredefinedActionName" : "Middle Click",
+          "BTTTriggerType" : 36,
+          "BTTTriggerTypeDescription" : "1 Finger Swipe Right",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 114,
+          "BTTPredefinedActionName" : "Move Right a Space",
           "BTTEnabled2" : 1,
-          "BTTUUID" : "DB4777D7-FE10-42DA-B85B-17FF7823DBE5",
+          "BTTUUID" : "BD6E6350-D3B3-435E-9615-7519AE16ABDF",
           "BTTEnabled" : 1,
-          "BTTOrder" : 0,
+          "BTTOrder" : 2,
           "BTTIconData" : "",
           "BTTAlternateIconData" : ""
         },
@@ -237,15 +250,54 @@
         },
         {
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 64,
-          "BTTPredefinedActionName" : "Forward Delete",
-          "BTTAdditionalConfiguration" : "524288",
+          "BTTPredefinedActionType" : 158,
+          "BTTPredefinedActionName" : "Lock Screen",
+          "BTTAdditionalConfiguration" : "1572864",
           "BTTEnabled2" : 1,
-          "BTTUUID" : "9050D28A-9D69-4687-9D09-9E8928EF6C0D",
+          "BTTUUID" : "23F87A63-C27B-4773-AB1E-D00D074C0753",
+          "BTTTriggerOnDown" : 1,
           "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 51,
-          "BTTShortcutModifierKeys" : 524288,
-          "BTTOrder" : 2,
+          "BTTShortcutKeyCode" : 37,
+          "BTTShortcutModifierKeys" : 1572864,
+          "BTTOrder" : 5
+        },
+        {
+          "BTTTriggerType" : 112,
+          "BTTTriggerTypeDescription" : "3 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "DB4777D7-FE10-42DA-B85B-17FF7823DBE5",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 0,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 126,
+          "BTTPredefinedActionName" : "Toggle Mouse Speed",
+          "BTTAdditionalConfiguration" : "393216",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "B3BEF9C8-BB10-422D-A266-8D4CA5853BC9",
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 6,
+          "BTTShortcutModifierKeys" : 393216,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
+        {
+          "BTTTriggerType" : 4,
+          "BTTTriggerTypeDescription" : "2 Finger Tap",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "41D9DF06-71CD-4133-926A-5C9A441B83C4",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 3,
           "BTTIconData" : "",
           "BTTAlternateIconData" : ""
         },
@@ -276,19 +328,6 @@
           "BTTAlternateIconData" : ""
         },
         {
-          "BTTTriggerType" : 36,
-          "BTTTriggerTypeDescription" : "1 Finger Swipe Right",
-          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
-          "BTTPredefinedActionType" : 114,
-          "BTTPredefinedActionName" : "Move Right a Space",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "BD6E6350-D3B3-435E-9615-7519AE16ABDF",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 2,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
           "BTTTriggerType" : -1,
           "BTTTriggerClass" : "BTTTriggerTypeBTTRemote",
           "BTTPredefinedActionType" : -1,
@@ -299,44 +338,7 @@
           "BTTOrder" : 0,
           "BTTIconData" : "",
           "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 64,
-          "BTTPredefinedActionName" : "Forward Delete",
-          "BTTAdditionalConfiguration" : "262144",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "BF220830-E93F-4858-94D1-D0CA3E142559",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 51,
-          "BTTShortcutModifierKeys" : 262144,
-          "BTTOrder" : 0,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 158,
-          "BTTPredefinedActionName" : "Lock Screen",
-          "BTTAdditionalConfiguration" : "1572864",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "23F87A63-C27B-4773-AB1E-D00D074C0753",
-          "BTTTriggerOnDown" : 1,
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 37,
-          "BTTShortcutModifierKeys" : 1572864,
-          "BTTOrder" : 5
         }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
-      "BTTAppSpecificSettings" : {
-
-      },
-      "BTTTriggers" : [
-
       ]
     },
     {
@@ -350,19 +352,6 @@
       "BTTTriggers" : [
         {
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 5,
-          "BTTPredefinedActionName" : "Mission Control",
-          "BTTAdditionalConfiguration" : "8388608",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "BA684B18-F5FA-4E15-841F-1D3CF8F50773",
-          "BTTTriggerOnDown" : 1,
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 111,
-          "BTTShortcutModifierKeys" : 8388608,
-          "BTTOrder" : 1
-        },
-        {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
           "BTTPredefinedActionType" : 45,
           "BTTPredefinedActionName" : "Show Desktop",
           "BTTAdditionalConfiguration" : "8388608",
@@ -373,6 +362,19 @@
           "BTTShortcutKeyCode" : 103,
           "BTTShortcutModifierKeys" : 8388608,
           "BTTOrder" : 0
+        },
+        {
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 5,
+          "BTTPredefinedActionName" : "Mission Control",
+          "BTTAdditionalConfiguration" : "8388608",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "BA684B18-F5FA-4E15-841F-1D3CF8F50773",
+          "BTTTriggerOnDown" : 1,
+          "BTTEnabled" : 1,
+          "BTTShortcutKeyCode" : 111,
+          "BTTShortcutModifierKeys" : 8388608,
+          "BTTOrder" : 1
         }
       ]
     },
@@ -383,6 +385,19 @@
 
       },
       "BTTTriggers" : [
+        {
+          "BTTTriggerType" : 20,
+          "BTTTriggerTypeDescription" : "2 Finger Click",
+          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
+          "BTTPredefinedActionType" : 1,
+          "BTTPredefinedActionName" : "Middle Click",
+          "BTTEnabled2" : 1,
+          "BTTUUID" : "BF991F02-BF6C-401C-85CE-D8E70CEDC2EE",
+          "BTTEnabled" : 1,
+          "BTTOrder" : 1,
+          "BTTIconData" : "",
+          "BTTAlternateIconData" : ""
+        },
         {
           "BTTTriggerType" : 1004,
           "BTTTriggerTypeDescription" : "Button 4",
@@ -411,19 +426,6 @@
           "BTTAlternateIconData" : ""
         },
         {
-          "BTTTriggerType" : 20,
-          "BTTTriggerTypeDescription" : "2 Finger Click",
-          "BTTTriggerClass" : "BTTTriggerTypeMagicMouse",
-          "BTTPredefinedActionType" : 1,
-          "BTTPredefinedActionName" : "Middle Click",
-          "BTTEnabled2" : 1,
-          "BTTUUID" : "BF991F02-BF6C-401C-85CE-D8E70CEDC2EE",
-          "BTTEnabled" : 1,
-          "BTTOrder" : 1,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
-        },
-        {
           "BTTTriggerType" : 1003,
           "BTTTriggerTypeDescription" : "Button 3",
           "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
@@ -440,10 +442,8 @@
       ]
     },
     {
-      "BTTActivationGroupName" : "Browsers",
-      "BTTAppName" : "Browsers",
-      "BTTAppProcessMatchMode" : 3,
-      "BTTActivationGroupCondition" : "YnBsaXN0MDDUAQIDBAUGbm9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QGgcIDxUdJygrMjY7PD9DR0xNUFZaXmNmZ2lrVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAGdIQCxEUWk5TLm9iamVjdHOiEhOAA4AUgBjUCxYXGBkaGxxfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBOADoAEgBHVHh8gIQsiIyQlJllOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADVx2YWx1ZUZvcktleTrSIAspKhABgAfSLC0uL1okY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuMDFcTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMzWhNIAJgAzTCyA3ODk6WU5TS2V5UGF0aIALEAqACldhcHBOYW1l0iwtPT5fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz0wMdIsLUBBXk5TTXV0YWJsZUFycmF5o0BCMVdOU0FycmF50iwtREVfEBNOU0tleVBhdGhFeHByZXNzaW9upERGMDFfEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNIIAtJSktfEA9OU0NvbnN0YW50VmFsdWWADxAAgBBdR29vZ2xlIENocm9tZdIsLU5PXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNOMDHUC1FSU1RKSlVaTlNNb2RpZmllcldOU0ZsYWdzXk5TT3BlcmF0b3JUeXBlgBIQY9IsLVdYXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yo1dZMV8QE05TUHJlZGljYXRlT3BlcmF0b3LSLC1bXF8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNbXTFbTlNQcmVkaWNhdGXUCxYXGBlgG2KAE4AVgASAF9NIIAtkSkuAFoAQV0ZpcmVmb3jUC1FSU1RKSlWAEtIsLUJqokIx0iwtbG1fEBNOU0NvbXBvdW5kUHJlZGljYXRlo2xdMV8QD05TS2V5ZWRBcmNoaXZlctFwcVRyb290gAEACAARABoAIwAtADIANwBUAFoAYQB7AI0AlACWAJgAmgCfAKoArQCvALEAswC8ANAA4wD5APsA_QD_AQEBDAEWASUBOAFEAUYBSAFKAUwBTgFbAWABYgFkAWkBdAF9AZABlAGhAaoBrwGxAbMBtQG8AcYByAHKAcwB1AHZAfgB_AIBAhACFAIcAiECNwI8AlMCWgJsAm4CcAJyAoAChQKhAqUCrgK5AsEC0ALSAtQC2QLxAvUDCwMQAygDLAM4A0EDQwNFA0cDSQNQA1IDVANcA2UDZwNsA28DdAOKA44DoAOjA6gAAAAAAAACAQAAAAAAAAByAAAAAAAAAAAAAAAAAAADqg==",
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
       "BTTAppSpecificSettings" : {
 
       },
@@ -452,10 +452,10 @@
       ]
     },
     {
-      "BTTAppBundleIdentifier" : "com.google.Chrome",
-      "BTTAppName" : "Google Chrome",
-      "BTTAppProcessMatchMode" : 2,
-      "BTTAppProcessName" : "Google Chrome",
+      "BTTActivationGroupName" : "Browsers",
+      "BTTAppName" : "Browsers",
+      "BTTAppProcessMatchMode" : 3,
+      "BTTActivationGroupCondition" : "YnBsaXN0MDDUAQIDBAUGbm9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QGgcIDxUdJygrMjY7PD9DR0xNUFZaXmNmZ2lrVSRudWxs0wkKCwwNDl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAGdIQCxEUWk5TLm9iamVjdHOiEhOAA4AUgBjUCxYXGBkaGxxfEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBOADoAEgBHVHh8gIQsiIyQlJllOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADVx2YWx1ZUZvcktleTrSIAspKhABgAfSLC0uL1okY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMuMDFcTlNFeHByZXNzaW9uWE5TT2JqZWN00hALMzWhNIAJgAzTCyA3ODk6WU5TS2V5UGF0aIALEAqACldhcHBOYW1l0iwtPT5fEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uoz0wMdIsLUBBXk5TTXV0YWJsZUFycmF5o0BCMVdOU0FycmF50iwtREVfEBNOU0tleVBhdGhFeHByZXNzaW9upERGMDFfEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNIIAtJSktfEA9OU0NvbnN0YW50VmFsdWWADxAAgBBdR29vZ2xlIENocm9tZdIsLU5PXxAZTlNDb25zdGFudFZhbHVlRXhwcmVzc2lvbqNOMDHUC1FSU1RKSlVaTlNNb2RpZmllcldOU0ZsYWdzXk5TT3BlcmF0b3JUeXBlgBIQY9IsLVdYXxAVTlNJblByZWRpY2F0ZU9wZXJhdG9yo1dZMV8QE05TUHJlZGljYXRlT3BlcmF0b3LSLC1bXF8QFU5TQ29tcGFyaXNvblByZWRpY2F0ZaNbXTFbTlNQcmVkaWNhdGXUCxYXGBlgG2KAE4AVgASAF9NIIAtkSkuAFoAQV0ZpcmVmb3jUC1FSU1RKSlWAEtIsLUJqokIx0iwtbG1fEBNOU0NvbXBvdW5kUHJlZGljYXRlo2xdMV8QD05TS2V5ZWRBcmNoaXZlctFwcVRyb290gAEACAARABoAIwAtADIANwBUAFoAYQB7AI0AlACWAJgAmgCfAKoArQCvALEAswC8ANAA4wD5APsA_QD_AQEBDAEWASUBOAFEAUYBSAFKAUwBTgFbAWABYgFkAWkBdAF9AZABlAGhAaoBrwGxAbMBtQG8AcYByAHKAcwB1AHZAfgB_AIBAhACFAIcAiECNwI8AlMCWgJsAm4CcAJyAoAChQKhAqUCrgK5AsEC0ALSAtQC2QLxAvUDCwMQAygDLAM4A0EDQwNFA0cDSQNQA1IDVANcA2UDZwNsA28DdAOKA44DoAOjA6gAAAAAAAACAQAAAAAAAAByAAAAAAAAAAAAAAAAAAADqg==",
       "BTTAppSpecificSettings" : {
 
       },
