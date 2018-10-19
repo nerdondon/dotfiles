@@ -26,6 +26,8 @@
 	pre = pull --rebase
 	preorg = pull --rebase origin mainline
 	porg = push -u origin
+	rebaese = rebase
+	reflolg = reflog
 	rmc = rm --cached
 	sl = stash list
 	sp = stash pop
