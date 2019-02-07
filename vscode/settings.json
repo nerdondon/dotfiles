@@ -30,6 +30,9 @@
   "[scss]": {
     "editor.tabSize": 2
   },
+  "[ruby]": {
+    "editor.tabSize": 2
+  },
   "gitlens.explorers.avatars": false,
   "gitlens.blame.avatars": false,
   "explorer.autoReveal": false,
@@ -55,7 +58,25 @@
   "git.autofetch": true,
   "breadcrumbs.enabled": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace" /*,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "ruby.format": "rubocop",
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "diffEditor.ignoreTrimWhitespace": true,
+  "git.inputValidationLength": 80,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "gitlens.views.avatars": false,
+  "gitlens.views.compare.avatars": false,
+  "gitlens.views.repositories.avatars": false,
+  "gitlens.views.search.avatars": false,
+  "solargraph.formatting": true,
+  "solargraph.autoformat": true,
+  "emmet.showAbbreviationSuggestions": false,
+  "search.usePCRE2": true,
+  "workbench.tree.horizontalScrolling": true
+  /*,
     "workbench.colorCustomizations": {
         "activityBar.background": "#000C1D",
         "activityBar.border": "#102a44",
