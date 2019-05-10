@@ -75,7 +75,7 @@
   "solargraph.autoformat": true,
   "emmet.showAbbreviationSuggestions": false,
   "search.usePCRE2": true,
-  "workbench.tree.horizontalScrolling": true
+  "workbench.list.horizontalScrolling": true
   /*,
     "workbench.colorCustomizations": {
         "activityBar.background": "#000C1D",
