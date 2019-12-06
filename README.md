@@ -1,5 +1,10 @@
 # mine
 
+## Install steps
+1. Install homebrew
+2. Run `brew bundle`
+3. Run `./install`
+
 ## Notes
 Just some notes on my current set up while I figure out how to automate their installation
 
