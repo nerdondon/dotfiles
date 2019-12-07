@@ -14,6 +14,12 @@ defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -int 1
 # Disable automatic capitalization
 defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 
+# Disable smart quotes
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+
+# Disable auto-correct
+defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+
 ##
 # Trackpad, mouse, keyboard, bluetooth, and input
 
