@@ -12,7 +12,7 @@ msjsdiag.debugger-for-chrome
 naumovs.theme-oceanicnext
 PeterJausovec.vscode-docker
 rebornix.ruby
-robertohuertasm.vscode-icons
+vscode-icons-team.vscode-icons
 sdras.night-owl
 SintrumIT.theme-oceanic-next-italic
 WallabyJs.quokka-vscode
