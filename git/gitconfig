@@ -14,6 +14,9 @@
 	show = diff-so-fancy | less --tabs=1,5 -RFX
 [push]
 	default = simple
+[rerere]
+	enabled = true
+	autoupdate = true
 [alias]
 	cb = checkout -b
 	ci = commit
@@ -29,6 +32,8 @@
 	rebaese = rebase
 	reflolg = reflog
 	rmc = rm --cached
+	rrr = rerere
+	rrrst = rerere status
 	sl = stash list
 	sp = stash pop
 	st = status
