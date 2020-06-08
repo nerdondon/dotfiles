@@ -4,7 +4,7 @@
 1. Install homebrew
 1. Run `brew bundle`
 1. Run `./install`
-1. Run `./bootstrap_mac`
+1. Run `./script/bootstrap_mac`
 
 ## Notes
 Just some notes on my current set up while I figure out how to automate their installation
