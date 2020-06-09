@@ -15,7 +15,7 @@ to
 ```
 Host somehost
     HostName somehost.example.com
-    LocalForward 9906 127.0.0.1:3306
+    LocalForward 9906 binding.domain.com:3306
 ```
 
 and control aliases
