@@ -28,6 +28,14 @@ Terminal themes I like:
 - Darkside
 - Material (white)
 
+## Updating stuff
+
+### Submodule updates
+Run the following to update submodules (dotbot, zsh-autosuggest, etc.):
+```
+git submodule update --remote
+```
+
 ## thanks
 Largely a fork of [Zach Holman's](https://github.com/holman) dotfiles
 
