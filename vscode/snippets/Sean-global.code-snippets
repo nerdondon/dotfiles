@@ -86,5 +86,17 @@
     "scope": "javascript,typescript,javascriptreact,typescriptreact",
     "body": ["if (process.env.NODE_ENV !== 'production') {", "\t$1", "}"],
     "description": "Code that should only be run in development"
-  }
+  },
+  "TestingDescribe": {
+    "prefix": "jasdes",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "body": ["describe(`$1`, () => {", "\t$2", "});"],
+    "description": "`describe` block for jasmine"
+  },
+  "TestingIt": {
+    "prefix": "jasit",
+    "scope": "javascript,typescript,javascriptreact,typescriptreact",
+    "body": ["it(`$1`, async () => {", "\t$2", "});"],
+    "description": "`it` block for jasmine"
+  },
 }
