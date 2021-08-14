@@ -6,7 +6,7 @@
   "window.zoomLevel": 0,
   "python.disablePromptForFeatures": ["pylint"],
   "powershell.integratedConsole.showOnStartup": false,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.shell.windows": "C:/Program Files/PowerShell/7/pwsh.exe",
   "editor.rulers": [100, 120],
   "editor.formatOnSave": true,
   "[javascript]": {
@@ -75,7 +75,10 @@
   "solargraph.autoformat": true,
   "emmet.showAbbreviationSuggestions": false,
   "search.usePCRE2": true,
-  "workbench.list.horizontalScrolling": true
+  "workbench.list.horizontalScrolling": true,
+  "dotfiles.repository": "nerdondon/dotfiles",
+  "dotfiles.installCommand": "~/dotfiles/install",
+  "remote.containers.copyGitConfig": false
   /*,
     "workbench.colorCustomizations": {
         "activityBar.background": "#000C1D",
