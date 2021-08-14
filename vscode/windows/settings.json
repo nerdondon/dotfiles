@@ -1,70 +1,73 @@
 {
-    "workbench.iconTheme": "vscode-icons",
-    "javascript.referencesCodeLens.enabled": true,
-    "typescript.referencesCodeLens.enabled": true,
-    "window.restoreWindows": "all",
-    "window.zoomLevel": 0,
-    "python.disablePromptForFeatures": [
-        "pylint"
-    ],
-    "powershell.integratedConsole.showOnStartup": false,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "editor.rulers": [
-        100,
-        120
-    ],
-    "editor.formatOnSave": true,
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
-    "[javascriptreact]": {
-        "editor.tabSize": 2
-    },
-    "[typescript]": {
-        "editor.tabSize": 2
-    },
-    "[typescriptreact]": {
-        "editor.tabSize": 2
-    },
-    "[json]": {
-        "editor.tabSize": 2
-    },
-    "[markdown]": {
-        "editor.tabSize": 4
-    },
-    "[scss]": {
-        "editor.tabSize": 2
-    },
-    "gitlens.explorers.avatars": false,
-    "gitlens.blame.avatars": false,
-    "explorer.autoReveal": false,
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressResultsExplorerNotice": false,
-        "suppressShowKeyBindingsNotice": true
-    },
-    "prettier.disableLanguages": [
-        "vue",
-        "markdown"
-    ],
-    "prettier.singleQuote": true,
-    "prettier.printWidth": 100,
-    "prettier.trailingComma": "es5",
-    "gitlens.historyExplorer.enabled": true,
-    "bracketPairColorizer.forceIterationColorCycle": true,
-    "editor.fontLigatures": true,
-    "workbench.colorTheme": "Night Owl",
-    "gitlens.mode.active": "review",
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#000C1D",
-        "activityBar.border": "#102a44",
-        "sideBar.background": "#001122",
-        "sideBar.border": "#102a44",
-        "sideBar.foreground": "#8BADC1"
-    }
+  "window.restoreWindows": "all",
+  "powershell.integratedConsole.showOnStartup": false,
+  "git.path": "D:/Program Files/Git/bin/git.exe",
+  "editor.rulers": [
+    100,
+    120
+  ],
+  "window.zoomLevel": 0,
+  "gitlens.explorers.avatars": false,
+  "gitlens.blame.avatars": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "markdownShortcuts.icons.bold": false,
+  "markdownShortcuts.icons.bullets": false,
+  "markdownShortcuts.icons.image": false,
+  "markdownShortcuts.icons.italic": false,
+  "markdownShortcuts.icons.strikethrough": false,
+  "npm.enableScriptExplorer": true,
+  "editor.fontLigatures": true,
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bracketPairColorizer.forceIterationColorCycle": true,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "gitlens.views.avatars": false,
+  "gitlens.views.compare.avatars": false,
+  "gitlens.views.repositories.avatars": false,
+  "gitlens.views.search.avatars": false,
+  "workbench.tree.horizontalScrolling": true,
+  "workbench.iconTheme": "vscode-icons",
+  "extensions.ignoreRecommendations": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.autofetch": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "terminal.integrated.shell.windows": "C:/Program Files/PowerShell/7/pwsh.exe",
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "workbench.list.horizontalScrolling": true,
+  "explorer.autoReveal": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "dotfiles.repository": "nerdondon/dotfiles",
+  "dotfiles.installCommand": "~/dotfiles/install",
+  "remote.containers.copyGitConfig": false,
 }
