@@ -1,7 +1,6 @@
 albert.TabOut
 castwide.solargraph
 ChrisRu.vscode-nightsky
-CoenraadS.bracket-pair-colorizer
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 eamodio.gitlens
