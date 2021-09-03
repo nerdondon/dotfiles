@@ -29,6 +29,13 @@
   "prettier.printWidth": 100,
   "prettier.singleQuote": true,
   "editor.formatOnSave": true,
+  "editor.inlayHints.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "[javascript]": {
     "editor.tabSize": 2
   },
@@ -70,4 +77,5 @@
   "dotfiles.repository": "nerdondon/dotfiles",
   "dotfiles.installCommand": "~/dotfiles/install",
   "remote.containers.copyGitConfig": false,
+  "editor.bracketPairColorization.enabled": true
 }
