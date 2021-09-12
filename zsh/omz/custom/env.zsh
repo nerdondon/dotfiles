@@ -9,11 +9,12 @@ export NVM_DIR="$HOME/.nvm"
 
 # workspaces
 # set paths to commonly used directories
+USER="seandon"
 export XAMPP=/Applications/XAMPP/xamppfiles
-export PRIMARY="/Users/williamseandon/Data/PrimaryWorkspace"
-export ECLIPSE="/Users/williamseandon/Data/Eclipse Workspace"
-export FINANCE="/Users/williamseandon/Data/Finance Workspace"
-export PYTHON="/Users/williamseandon/Data/Python Workspace"
+export PRIMARY="/Users/${USER}/Data/PrimaryWorkspace"
+export ECLIPSE="/Users/${USER}/Data/Eclipse Workspace"
+export FINANCE="/Users/${USER}/Data/Finance Workspace"
+export PYTHON="/Users/${USER}/Data/Python Workspace"
 export BLOG="${PRIMARY}/nerdondon.github.io"
 export SANDBOX="${PRIMARY}/sandbox"
 export GOPATH="${PRIMARY}/go"
