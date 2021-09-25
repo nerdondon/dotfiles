@@ -80,5 +80,8 @@
   "editor.bracketPairColorization.enabled": true,
   "rust-analyzer.checkOnSave.command": "clippy",
   "lldb.consoleMode": "evaluate",
-  "lldb.launch.sourceLanguages": ["cpp", "rust"]
+  "lldb.launch.sourceLanguages": ["cpp", "rust"],
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true
 }
