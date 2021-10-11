@@ -38,7 +38,15 @@ Terminal themes I like:
 
 ### Submodule updates
 
-Run the following to update submodules (dotbot, zsh-autosuggest, etc.):
+Run the following commands to update submodules (dotbot, zsh-autosuggest, etc.).
+
+If the submodules have not already been pulled down:
+
+```shell
+git submodule update --init
+```
+
+If the submodules are already pulled down:
 
 ```shell
 git submodule update --remote
