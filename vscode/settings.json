@@ -89,7 +89,8 @@
   "editor.bracketPairColorization.enabled": true,
   "rust-analyzer.checkOnSave.command": "clippy",
   "lldb.consoleMode": "evaluate",
-  "lldb.launch.sourceLanguages": ["cpp", "rust"]
+  "lldb.launch.sourceLanguages": ["cpp", "rust"],
+  "terminal.integrated.persistentSessionReviveProcess": true
   /*,
     "workbench.colorCustomizations": {
         "activityBar.background": "#000C1D",
