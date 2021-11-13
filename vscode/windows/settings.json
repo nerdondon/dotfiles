@@ -3,7 +3,6 @@
   "powershell.integratedConsole.showOnStartup": false,
   "git.path": "D:/Program Files/Git/bin/git.exe",
   "editor.rulers": [100, 120],
-  "window.zoomLevel": 0,
   "gitlens.explorers.avatars": false,
   "gitlens.blame.avatars": false,
   "gitlens.advanced.messages": {
@@ -34,7 +33,8 @@
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "[javascript]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.tabSize": 2
@@ -44,6 +44,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -74,12 +78,17 @@
   "dotfiles.repository": "nerdondon/dotfiles",
   "dotfiles.installCommand": "~/dotfiles/install",
   "remote.containers.copyGitConfig": false,
-  "editor.bracketPairColorization.enabled": true,
+  "rust-analyzer.lens.references": true,
+  "rust-analyzer.updates.askBeforeDownload": true,
+  "rust-client.engine": "rust-analyzer",
+  "prettier.proseWrap": "always",
   "rust-analyzer.checkOnSave.command": "clippy",
   "lldb.consoleMode": "evaluate",
   "lldb.launch.sourceLanguages": ["cpp", "rust"],
+  "diffEditor.ignoreTrimWhitespace": false,
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
-  "terminal.integrated.persistentSessionReviveProcess": true
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true
 }
