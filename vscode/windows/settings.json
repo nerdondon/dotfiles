@@ -11,16 +11,13 @@
     "suppressFileNotUnderSourceControlWarning": false,
     "suppressGitVersionWarning": false,
     "suppressLineUncommittedWarning": false,
-    "suppressNoRepositoryWarning": false,
-    "suppressResultsExplorerNotice": false,
-    "suppressShowKeyBindingsNotice": true
+    "suppressNoRepositoryWarning": false
   },
   "markdownShortcuts.icons.bold": false,
   "markdownShortcuts.icons.bullets": false,
   "markdownShortcuts.icons.image": false,
   "markdownShortcuts.icons.italic": false,
   "markdownShortcuts.icons.strikethrough": false,
-  "npm.enableScriptExplorer": true,
   "editor.fontLigatures": true,
   "prettier.printWidth": 100,
   "prettier.singleQuote": true,
@@ -51,7 +48,6 @@
     "editor.tabSize": 2,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "bracketPairColorizer.forceIterationColorCycle": true,
   "gitlens.views.fileHistory.enabled": true,
   "gitlens.views.lineHistory.enabled": true,
   "gitlens.views.avatars": false,
@@ -90,5 +86,6 @@
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
 }
