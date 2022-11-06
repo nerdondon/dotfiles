@@ -6,7 +6,6 @@
   "window.zoomLevel": 0,
   "python.disablePromptForFeatures": ["pylint"],
   "powershell.integratedConsole.showOnStartup": false,
-  "terminal.integrated.shell.windows": "C:/Program Files/PowerShell/7/pwsh.exe",
   "editor.rulers": [100, 120],
   "editor.formatOnSave": true,
   "editor.inlayHints.enabled": true,
@@ -89,7 +88,26 @@
   "rust-analyzer.checkOnSave.command": "clippy",
   "lldb.consoleMode": "evaluate",
   "lldb.launch.sourceLanguages": ["cpp", "rust"],
-  "terminal.integrated.persistentSessionReviveProcess": true
+  "terminal.integrated.persistentSessionReviveProcess": true,
+  "rust-analyzer.imports.granularity.group": "module",
+  "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+  "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "skip_trivial",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
   /*,
     "workbench.colorCustomizations": {
         "activityBar.background": "#000C1D",

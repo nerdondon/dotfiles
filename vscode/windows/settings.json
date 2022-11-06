@@ -61,7 +61,6 @@
   "git.autofetch": true,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "terminal.integrated.shell.windows": "C:/Program Files/PowerShell/7/pwsh.exe",
   "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
   "workbench.list.horizontalScrolling": true,
   "explorer.autoReveal": false,
@@ -86,6 +85,25 @@
   "typescript.referencesCodeLens.enabled": true,
   "typescript.referencesCodeLens.showOnAllFunctions": true,
   "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": true,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+  "rust-analyzer.imports.granularity.group": "module",
+  "rust-analyzer.inlayHints.lifetimeElisionHints.useParameterNames": true,
+  "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "skip_trivial",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
 }
