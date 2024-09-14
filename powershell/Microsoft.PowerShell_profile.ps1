@@ -1,5 +1,6 @@
 Import-Module posh-git
 Set-PSReadlineOption -BellStyle None
+. .\save_windows.ps1
 
 Write-Host "Locations: repos"
 # env aliases
