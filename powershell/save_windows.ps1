@@ -11,7 +11,7 @@ function saveExplorerSession {
     foreach ($path in $windowPaths) {
         Write-Output "Processing $($path)"
         $isLocal = $path.StartsWith("/")
-        $normalizedPath = $isLocal ? $path.Substring(1) : "\\" + $path
+        $normalizedPath = [System.Web.HttpUtility]::UrlDecode($isLocal ? $path.Substring(1) : "\\" + $path)
         $window = [PSCustomObject]@{
             Path    = $normalizedPath
             IsLocal = $isLocal
@@ -33,7 +33,7 @@ function saveExplorerSession {
     Write-Output "Saved session"
 }
 
-function restoreExplorerSession {
+function restoreExplorerSession([bool]$dryRun) {
     $saveFolder = "C:\Users\seandon\saved_windows"
     $saveFileName = "saved_windows.json"
     $saveFileLocation = $saveFolder + "\" + $saveFileName
@@ -45,7 +45,12 @@ function restoreExplorerSession {
 
     $windows = Get-Content $saveFileLocation | ConvertFrom-Json
     foreach ($path in $windows) {
-        Write-Output "Opening $($windows.Path)"
+        Write-Output "Opening $($path)"
+
+        if ($dryRun) {
+            return
+        }
+
         if ($path.IsLocal) {
             Invoke-Item $windows.Path
             return
