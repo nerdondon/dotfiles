@@ -45,7 +45,12 @@ function restoreExplorerSession([bool]$dryRun) {
 
     $windows = Get-Content $saveFileLocation | ConvertFrom-Json
     foreach ($path in $windows) {
-        Write-Output "Opening $($path)"
+        Write-Output "Attempting to open $($path)"
+
+        if (!(Test-Path -PathType Container $path)) {
+            Write-Output "$($path) does not exist or is not a directory. Skipping."
+            continue
+        }
 
         if ($dryRun) {
             continue
