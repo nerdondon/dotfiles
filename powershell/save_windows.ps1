@@ -52,10 +52,10 @@ function restoreExplorerSession([bool]$dryRun) {
         }
 
         if ($path.IsLocal) {
-            Invoke-Item $windows.Path
+            Invoke-Item $path.Path
             return
         }
 
-        Invoke-Item "\\$($windows.Path)"
+        Invoke-Item "\\$($path.Path)"
     }
 }
