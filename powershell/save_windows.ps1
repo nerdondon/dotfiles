@@ -47,8 +47,8 @@ function restoreExplorerSession([bool]$dryRun) {
     foreach ($path in $windows) {
         Write-Output "Attempting to open $($path)"
 
-        if (!(Test-Path -PathType Container $path)) {
-            Write-Output "$($path) does not exist or is not a directory. Skipping."
+        if (!(Test-Path -PathType Container $path.Path)) {
+            Write-Output "$($path.Path) does not exist or is not a directory. Skipping."
             continue
         }
 
