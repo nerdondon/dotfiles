@@ -48,12 +48,12 @@ function restoreExplorerSession([bool]$dryRun) {
         Write-Output "Opening $($path)"
 
         if ($dryRun) {
-            return
+            continue
         }
 
         if ($path.IsLocal) {
             Invoke-Item $path.Path
-            return
+            continue
         }
 
         Invoke-Item "\\$($path.Path)"
