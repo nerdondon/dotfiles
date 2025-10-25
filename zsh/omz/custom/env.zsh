@@ -1,8 +1,8 @@
 export EDITOR="vim"
 
 # NVM stuff
-export NVM_DIR="$HOME/.nvm"
-. "/usr/local/opt/nvm/nvm.sh"
+# export NVM_DIR="$HOME/.nvm"
+# . "/usr/local/opt/nvm/nvm.sh"
 
 # zsh-completions loading
 #fpath=(/usr/local/share/zsh-completions $fpath)
