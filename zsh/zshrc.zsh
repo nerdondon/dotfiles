@@ -112,6 +112,9 @@ bindkey '^ ' autosuggest-accept
 # Add vscode to the path
 export PATH=$PATH:/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin
 
+# Add homebrew to the path
+export PATH=$PATH:/opt/homebrew/bin
+
 # autojump
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
