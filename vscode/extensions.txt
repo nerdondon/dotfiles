@@ -4,7 +4,7 @@ ChrisRu.vscode-nightsky
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 eamodio.gitlens
-esbenp.prettier-vscode
+prettier.prettier-vscode
 metaseed.metago
 ms-azuretools.vscode-docker
 ms-python.python
