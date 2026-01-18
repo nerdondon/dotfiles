@@ -72,7 +72,7 @@
   },
   "dotfiles.repository": "nerdondon/dotfiles",
   "dotfiles.installCommand": "~/dotfiles/install",
-  "remote.containers.copyGitConfig": false,
+  "dev.containers.copyGitConfig": true,
   "rust-analyzer.lens.references": true,
   "rust-analyzer.updates.askBeforeDownload": true,
   "rust-client.engine": "rust-analyzer",
