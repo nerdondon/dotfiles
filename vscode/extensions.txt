@@ -1,6 +1,4 @@
 albert.TabOut
-castwide.solargraph
-ChrisRu.vscode-nightsky
 dbaeumer.vscode-eslint
 donjayamanne.githistory
 eamodio.gitlens
@@ -11,10 +9,7 @@ ms-python.python
 ms-vscode.powershell
 ms-vscode.vscode-typescript-tslint-plugin
 msjsdiag.debugger-for-chrome
-naumovs.theme-oceanicnext
 sdras.night-owl
-SintrumIT.theme-oceanic-next-italic
 vscode-icons-team.vscode-icons
 WallabyJs.quokka-vscode
 WallabyJs.wallaby-vscode
-whizkydee.material-palenight-theme
